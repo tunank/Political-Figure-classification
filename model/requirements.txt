@@ -1,0 +1,4 @@
+scrapy==2.12.*
+PyWavelets==1.8.0
+opencv-python==4.11.*
+seaborn==0.13.2
