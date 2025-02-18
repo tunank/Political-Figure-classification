@@ -45,3 +45,9 @@ The project follows a structured pipeline consisting of five key components:
 ```bash
 git clone https://github.com/your-repo-name/political-leader-classification.git
 cd political-leader-classification
+```
+
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
