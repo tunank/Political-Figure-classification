@@ -18,7 +18,7 @@ ITEM_PIPELINES = {
 }
 
 # Folder where images will be stored
-IMAGES_STORE = 'Xi Jinping'  # Change this to your preferred folder name
+IMAGES_STORE = 'Joe Biden'  # Change this to your preferred folder name
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "image_scrapy (+http://www.yourdomain.com)"
