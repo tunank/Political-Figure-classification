@@ -8,7 +8,6 @@
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 BOT_NAME = "image_scrapy"
-
 SPIDER_MODULES = ["image_scrapy.spiders"]
 NEWSPIDER_MODULE = "image_scrapy.spiders"
 
@@ -19,7 +18,7 @@ ITEM_PIPELINES = {
 }
 
 # Folder where images will be stored
-IMAGES_STORE = 'trudeau'  # Change this to your preferred folder name
+IMAGES_STORE = 'Xi Jinping'  # Change this to your preferred folder name
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "image_scrapy (+http://www.yourdomain.com)"
