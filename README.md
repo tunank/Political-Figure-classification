@@ -6,7 +6,7 @@ This project trains a **deep learning model** to classify **political leaders** 
 
 ##  **Project Workflow**
 ### 1 **Dataset Preparation**
-- **Web Scraping with Scrapy**: Used **Scrapy** to collect images of political leaders from the web.
+- **Web Scraping with Scrapy**: Used **Scrapy** to collect images of political leaders from the GettyImage.
 - **Structured dataset format**: Each subfolder contains images of a specific person.
 - **Face Detection**: Uses **MTCNN** to crop faces before training.
 - **Automatic Labeling**: Creates a `{name: ID}` dictionary for classification.
