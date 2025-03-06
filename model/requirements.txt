@@ -7,3 +7,4 @@ uvicorn
 torchvision
 pillow
 python-multipart
+axios
