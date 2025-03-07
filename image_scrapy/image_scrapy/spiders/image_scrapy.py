@@ -3,11 +3,11 @@ from image_scrapy.items import ImageScrapyItem
 
 class ImageScrapySpider(scrapy.Spider):
     name = 'image_scrapy'
-    start_urls = ['https://www.gettyimages.ca/photos/joe-biden']
+    start_urls = ['https://www.gettyimages.ca/photos/elon-musk-potrait']
 
     # customize setting to restrict the number of images to download
     custom_settings = {
-        'CLOSESPIDER_ITEMCOUNT': 30
+        'CLOSESPIDER_ITEMCOUNT': 200
     }
 
     def parse(self, response, **kwargs):
