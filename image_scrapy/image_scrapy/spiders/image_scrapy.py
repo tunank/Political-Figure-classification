@@ -13,7 +13,7 @@ class ImageScrapySpider(scrapy.Spider):
         'CLOSESPIDER_PAGECOUNT': 10  # Added page limit as a backup
     }
 
-    def start_requests(self):  # FIXED: Method name with 's'
+    def start_requests(self):
         url = f"https://www.gettyimages.ca/photos/{self.search_term}?page={self.page_number}"
         yield scrapy.Request(url=url, callback=self.parse)
 
