@@ -8,3 +8,4 @@ torchvision
 pillow
 python-multipart
 axios
+scikit-learn
