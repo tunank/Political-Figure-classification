@@ -8,9 +8,8 @@ This project implements a **Face Recognition System** using **PyTorch** and a **
 ## 🚀 Features
 - **Pretrained ResNet-18** for feature extraction.
 - **Data Augmentation** for robust training.
-- **Train/Test Split (80/20)** for evaluation.
+- **Train/Test Split (70/30)** for evaluation.
 - **Dynamic Learning Rate Adjustment** with `ReduceLROnPlateau`.
-- **Early Stopping** for efficiency.
 - **Model Saving & Loading** for future inference.
 - **Confusion Matrix & Performance Metrics** visualization.
 
@@ -20,11 +19,10 @@ The model automatically evaluates performance at the end of training. Metrics in
 - **Per-Class Accuracy**
 - **Precision, Recall, and F1 Score**
 
-## 📊 Metrics
+## 📊 Visualization
 The training script saves:
 1. **Confusion Matrix**
 2. **Loss & Accuracy Curves**
-3. **F1 score**
 
 ## 🤝 Contributing
 Pull requests are welcome! For major changes, please open an issue first.
